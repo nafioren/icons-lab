@@ -55,7 +55,7 @@ public class PaisEntity {
             name = "icon_pais",
             joinColumns= @JoinColumn(name = "pais_id"),
             inverseJoinColumns = @JoinColumn(name = "icon_id"))
-    private Set<IconsEntity> icons = new HashSet<>();
+    private Set<IconEntity> icons = new HashSet<>();
 
 
 

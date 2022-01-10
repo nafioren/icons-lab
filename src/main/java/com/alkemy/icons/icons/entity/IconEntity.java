@@ -17,7 +17,7 @@ import java.util.List;
 @Setter
 @SQLDelete(sql = "UPDATE icon SET deleted = true WHERE id=?")
 @Where(clause = "deleted=false")
-public class IconsEntity {
+public class IconEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
